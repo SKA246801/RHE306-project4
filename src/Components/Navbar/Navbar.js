@@ -19,6 +19,11 @@ function Navbar({ toggle }) {
         </div>
         <div className='nav-menu'>
           <div className='nav-item'>
+            <Link className='nav-links' to={{ pathname: '/' }}>
+              Home
+            </Link>
+          </div>
+          <div className='nav-item'>
             <Link className='nav-links' to={{ pathname: '/history' }}>
               History
             </Link>

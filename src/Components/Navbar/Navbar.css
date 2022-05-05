@@ -1,10 +1,9 @@
 .navbar {
     height: 80px;
-    /* margin-top: -80px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: navy;
+    background-color: #002868;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -38,7 +37,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .nav-item {
@@ -46,18 +44,19 @@
 }
 
 .nav-links {
-    color: white;
+    color: black;
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0 5px;
     height: 100%;
     cursor: pointer;
 }
 
-.nav-links:active {
-    border-bottom: 3px solid #01bf71;
+.nav-links:hover {
+    color: white;
+
 }
 
 @media only screen and (max-width: 960px) {
