@@ -42,11 +42,6 @@ function Navbar({ toggle }) {
               Voting Signup
             </Link>
           </div>
-          {/* <div className='nav-item'>
-            <Link className='nav-links' to='/map'>
-              US Map
-            </Link>
-          </div> */}
         </div>
       </div>
     </div>
