@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Map.css'
 import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
 import { geoCentroid } from 'd3-geo'
@@ -35,6 +36,34 @@ function Map() {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <h1 className='title'>
+        The following is a map of the results from the 2020 election
+      </h1>
+      <div className='race'>
+        <div className='img-container'>
+          <img
+            className='candidate-img-biden'
+            src={require('../../assets/images/biden.png')}
+            alt='Biden'
+          />
+        </div>
+        <div className='progress-container'>
+          <div className='names'>
+            <h4 className='biden'>306 Biden</h4>
+            <h4 className='trump'>Trump 232</h4>
+          </div>
+          <div className='progress-bar'>
+            a<span>b</span>
+          </div>
+        </div>
+        <div className='img-container'>
+          <img
+            className='candidate-img-trump'
+            src={require('../../assets/images/trump.png')}
+            alt='Trump'
+          />
+        </div>
+      </div>
       <ComposableMap projection='geoAlbersUsa'>
         <Geographies geography={geoUrl}>
           {({ geographies }) => (
@@ -80,6 +109,20 @@ function Map() {
           )}
         </Geographies>
       </ComposableMap>
+      <div className='legend-container'>
+        <div className='legend'>
+          <dt className='red key'></dt>
+          <dd>Republican</dd>
+        </div>
+        <div className='legend'>
+          <dt className='blue key'></dt>
+          <dd>Democrat</dd>
+        </div>
+        <div className='legend'>
+          <dt className='purple key'></dt>
+          <dd>Mixed</dd>
+        </div>
+      </div>
     </div>
   )
 }

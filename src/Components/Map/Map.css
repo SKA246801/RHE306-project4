@@ -1,0 +1,129 @@
+.title {
+    font-size: 2.5rem;
+    margin: 45px 0;
+    text-align: center;
+}
+
+/* progress bar */
+
+.race {
+    display: flex;
+    margin: 0 20px;
+    height: 100px;
+}
+
+.img-container {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.candidate-img-biden {
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.candidate-img-trump {
+    border-radius: 50%;
+    background-color: red;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 1.5rem
+}
+
+.biden {
+    color: blue
+}
+
+.trump {
+    color: red
+}
+
+.progress-container {
+    height: 20px;
+    width: 100%;
+    border-radius: 50;
+    margin: 35px 10px 0 10px
+}
+
+.progress-bar {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border-radius: inherit;
+    color: blue
+}
+
+.progress-bar span {
+    height: 100%;
+    width: 43%;
+    float: right;
+    background-color: red;
+    border-radius: inherit;
+    color: red
+}
+
+/* map legend */
+.legend-container {
+    margin: 0 auto 100px auto;
+    width: 40%;
+    padding: 10px;
+    border: solid 1px
+}
+
+.legend {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+dd {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+@media only screen and (max-width: 850px) {
+    .title {
+        font-size: 1.5rem;
+        margin: 25px auto 0 auto;
+    }
+
+    img {
+        width: 45px;
+        object-fit: contain;
+    }
+    
+    .names {
+        font-size: .8rem;
+    }
+}
