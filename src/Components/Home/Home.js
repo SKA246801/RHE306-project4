@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
+import Sidebar from '../Sidebar/Sidebar'
 
-const History = () => {
+function Home() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
@@ -10,12 +10,12 @@ const History = () => {
   }
 
   return (
-    <div>
+    <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      Historfdsafdsafsadfsadfy
-    </div>
+      Home
+    </>
   )
 }
 
-export default History
+export default Home

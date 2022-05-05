@@ -1,16 +1,25 @@
+import React from 'react'
 import './App.css'
-import { Router, Routes, Route } from 'react-router-dom'
-
-// components
-import History from './Components/History/History'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './components/Home/Home'
+import History from './components/History/History'
+import Map from './components/Map/Map'
 
 function App() {
   return (
     <Router>
       <div className='App'>
-        <Routes>
-          <Route exact path='/history' element={<History />}></Route>
-        </Routes>
+        <Switch>
+          <Route path='/map'>
+            <Map />
+          </Route>
+          <Route path='/history'>
+            <History />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
       </div>
     </Router>
   )
