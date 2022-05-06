@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Home.css'
 import Navbar from '../Navbar/Navbar'
 import Sidebar from '../Sidebar/Sidebar'
 
@@ -13,7 +14,9 @@ function Home() {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <div className='homepage'>Home</div>
+      <div className='homepage'>
+        <h1 className='title'>The Electoral College</h1>
+      </div>
     </>
   )
 }

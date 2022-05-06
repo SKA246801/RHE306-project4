@@ -1,80 +1,84 @@
 .navbar {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #002868;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002868;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1100px;
 }
-.logo {
-    margin-left: 5px;
-    width: 100px;
-    object-fit: contain;
-    cursor: pointer;
 
+.logo {
+  margin-left: 5px;
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 .mobile-icon {
-    display: none;
+  display: none;
 }
 
 .nav-menu {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 25px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
 }
 
 .nav-item {
-    height: 80px;
+  height: 80px;
 }
 
 .nav-links {
-    color: black;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    padding: 0 5px;
-    height: 100%;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 0 5px;
+  height: 100%;
+  cursor: pointer;
 }
 
 .nav-links:hover {
-    color: white;
-
+  color: white;
 }
 
 @media only screen and (max-width: 960px) {
-    .navbar{transition: 0.8s all ease}
+  .navbar {
+    transition: 0.8s all ease;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .mobile-icon{
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-     }
-     .nav-menu {
-         display: none;
-     }
- }
+  .mobile-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .mobile-icon:hover {
+    color: white;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}

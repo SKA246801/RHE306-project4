@@ -1,0 +1,55 @@
+.history-page {
+  background-color: white;
+  padding-top: 10px;
+  margin: 10px 20px;
+}
+
+.img-container {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.capitol {
+  width: 500px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.text {
+  margin: 20px;
+  text-indent: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    text-indent: 0;
+  }
+
+  .capitol {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .capitol {
+    width: 200px;
+  }
+}
