@@ -1,9 +1,53 @@
 .homepage {
   background-color: white;
-  padding-top: 10px;
+  padding: 15px 0;
   margin: 10px 20px;
 }
 
-a {
-  color: #002868;
+.homepage-title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.homepage-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.homepage-img {
+  object-fit: contain;
+  width: 500px;
+}
+
+.homepage-img-caption {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.subtitle {
+  margin: 0 20px;
+}
+
+.homepage-text {
+  margin: 0 20px 30px 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .homepage-img {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .homepage-title {
+    font-size: 1.5rem;
+  }
+
+  .homepage-img {
+    width: 200px;
+  }
 }

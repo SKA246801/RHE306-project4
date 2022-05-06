@@ -1,6 +1,6 @@
 .history-page {
   background-color: white;
-  padding-top: 10px;
+  padding: 10px 0;
   margin: 10px 20px;
 }
 
@@ -29,6 +29,10 @@
 .text {
   margin: 20px;
   text-indent: 50px;
+}
+
+a {
+  color: #002868;
 }
 
 @media only screen and (max-width: 750px) {
