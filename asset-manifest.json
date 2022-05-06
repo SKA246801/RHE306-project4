@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RHE306-project4/static/css/main.f969ace3.css",
+    "main.js": "/RHE306-project4/static/js/main.20cb6dc5.js",
+    "static/js/787.2d2aed0c.chunk.js": "/RHE306-project4/static/js/787.2d2aed0c.chunk.js",
+    "static/media/capitol.jpg": "/RHE306-project4/static/media/capitol.b63147fb64e8881f3729.jpg",
+    "static/media/electoral-college-cartoon.jpg": "/RHE306-project4/static/media/electoral-college-cartoon.80fb5ff83a21c9ce94c8.jpg",
+    "static/media/electoral-college.jpg": "/RHE306-project4/static/media/electoral-college.8a2d63538be07b3b27a7.jpg",
+    "static/media/trump.png": "/RHE306-project4/static/media/trump.823117261efa3ca0c7c4.png",
+    "static/media/biden.png": "/RHE306-project4/static/media/biden.2a5fe4cdfcf72f8edb06.png",
+    "index.html": "/RHE306-project4/index.html",
+    "main.f969ace3.css.map": "/RHE306-project4/static/css/main.f969ace3.css.map",
+    "main.20cb6dc5.js.map": "/RHE306-project4/static/js/main.20cb6dc5.js.map",
+    "787.2d2aed0c.chunk.js.map": "/RHE306-project4/static/js/787.2d2aed0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f969ace3.css",
+    "static/js/main.20cb6dc5.js"
+  ]
+}
