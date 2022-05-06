@@ -62,6 +62,16 @@ function Home() {
           however will go back and forth between the two with no real
           consistency so both candidates will campaign heavily in this state
         </p>
+        <div className='homepage-img-container'>
+          <img
+            src={require('../../assets/images/electoral-college.jpg')}
+            className='homepage-img'
+            alt='The mascots of each party (Democrat: Left and Republican: Right)'
+          />
+          <p className='homepage-img-caption'>
+            The mascots of each party (Democrat: Left and Republican: Right)
+          </p>
+        </div>
         <h3 className='subtitle'>The Solution</h3>
         <p className='homepage-text'>
           A solution to the issue of the electoral college is a national popular
