@@ -10,13 +10,13 @@ function App() {
     <Router>
       <div className='App'>
         <Switch>
-          <Route path='/RHE306-project4/map'>
+          <Route path='/map'>
             <Map />
           </Route>
-          <Route path='/RHE306-project4/history'>
+          <Route path='/history'>
             <History />
           </Route>
-          <Route path='/RHE306-project4/'>
+          <Route path='/'>
             <Home />
           </Route>
         </Switch>

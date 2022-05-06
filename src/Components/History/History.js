@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './History.css'
 import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
@@ -51,9 +52,9 @@ const History = () => {
           electoral college vote bonus. The winner-take-all system favors
           majority parties and large states versus minor parties and small
           states. This is why if you view the{' '}
-          <a href='/RHE306-project4/map'>
+          <Link to='/map'>
             <b>map</b>
-          </a>{' '}
+          </Link>{' '}
           you will see these states in purple.
         </p>
       </div>

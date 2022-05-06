@@ -7,7 +7,7 @@ function Navbar({ toggle }) {
   return (
     <div className='navbar'>
       <div className='navbar-container'>
-        <Link to='/RHE306-project4/'>
+        <Link to='/'>
           <img
             src={require('../../assets/images/flag.png')}
             className='logo'
@@ -19,17 +19,17 @@ function Navbar({ toggle }) {
         </div>
         <div className='nav-menu'>
           <div className='nav-item'>
-            <Link className='nav-links' to='/RHE306-project4/'>
+            <Link className='nav-links' to='/'>
               Home
             </Link>
           </div>
           <div className='nav-item'>
-            <Link className='nav-links' to='/RHE306-project4/history'>
+            <Link className='nav-links' to='/history'>
               History
             </Link>
           </div>
           <div className='nav-item'>
-            <Link className='nav-links' to='/RHE306-project4/map'>
+            <Link className='nav-links' to='/map'>
               US Map
             </Link>
           </div>
