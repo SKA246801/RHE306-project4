@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RHE306-project4/static/css/main.f969ace3.css",
-    "main.js": "/RHE306-project4/static/js/main.2755e5a9.js",
+    "main.js": "/RHE306-project4/static/js/main.a18d9b32.js",
     "static/js/787.c76ce270.chunk.js": "/RHE306-project4/static/js/787.c76ce270.chunk.js",
     "static/media/capitol.jpg": "/RHE306-project4/static/media/capitol.b63147fb64e8881f3729.jpg",
     "static/media/electoral-college-cartoon.jpg": "/RHE306-project4/static/media/electoral-college-cartoon.80fb5ff83a21c9ce94c8.jpg",
@@ -10,11 +10,11 @@
     "static/media/biden.png": "/RHE306-project4/static/media/biden.2a5fe4cdfcf72f8edb06.png",
     "index.html": "/RHE306-project4/index.html",
     "main.f969ace3.css.map": "/RHE306-project4/static/css/main.f969ace3.css.map",
-    "main.2755e5a9.js.map": "/RHE306-project4/static/js/main.2755e5a9.js.map",
+    "main.a18d9b32.js.map": "/RHE306-project4/static/js/main.a18d9b32.js.map",
     "787.c76ce270.chunk.js.map": "/RHE306-project4/static/js/787.c76ce270.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f969ace3.css",
-    "static/js/main.2755e5a9.js"
+    "static/js/main.a18d9b32.js"
   ]
 }
