@@ -51,7 +51,7 @@ const History = () => {
           electoral college vote bonus. The winner-take-all system favors
           majority parties and large states versus minor parties and small
           states. This is why if you view the{' '}
-          <a href='/map'>
+          <a href='/RHE306-project4/map'>
             <b>map</b>
           </a>{' '}
           you will see these states in purple.
