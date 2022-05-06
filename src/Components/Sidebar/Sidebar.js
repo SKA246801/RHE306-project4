@@ -16,9 +16,9 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarMenu>
         <SidebarWrapper>
-          <SidebarLink to='/'>Home</SidebarLink>
-          <SidebarLink to='/history'>History</SidebarLink>
-          <SidebarLink to='/map'>Map</SidebarLink>
+          <SidebarLink to='/RHE306-project4/'>Home</SidebarLink>
+          <SidebarLink to='/RHE306-project4/history'>History</SidebarLink>
+          <SidebarLink to='/RHE306-project4/map'>Map</SidebarLink>
           <SidebarLink
             to={{ pathname: 'https://www.nass.org/can-I-vote' }}
             target='_blank'
